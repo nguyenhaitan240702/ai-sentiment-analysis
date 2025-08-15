@@ -1,0 +1,848 @@
+# --- BEGIN VIETNAMESE POSITIVE SENTIMENT LEXICON ---
+# --- For AI Sentiment Analysis Model Training ---
+# --- Last Updated: 2025-08-14 ---
+
+# === SECTION 1: CORE POSITIVE WORDS (ADJECTIVES, VERBS, NOUNS) ===
+# Gồm các từ đơn và cụm từ gốc mang nghĩa tích cực.
+tốt
+hay
+đẹp
+tuyệt
+xuất sắc
+hoàn hảo
+tuyệt vời
+thích
+yêu
+mến
+quý
+quý mến
+hài lòng
+vui
+vui vẻ
+hạnh phúc
+tích cực
+ưng ý
+thú vị
+hữu ích
+chất lượng
+hiệu quả
+đáng tin cậy
+an toàn
+tin tưởng
+tiện lợi
+nhanh chóng
+dễ dàng
+hợp lý
+phù hợp
+đẹp mắt
+sang trọng
+tinh tế
+ổn
+được
+tuyệt diệu
+kỳ diệu
+tuyệt hảo
+lý tưởng
+xuất chúng
+siêu việt
+tài tình
+giỏi
+giỏi giang
+khéo léo
+thông minh
+lanh lợi
+dễ thương
+đáng yêu
+ngọt ngào
+ấm áp
+chuyên nghiệp
+mượt
+mượt mà
+bén
+ngon
+khỏe
+mạnh
+sáng sủa
+sạch sẽ
+gọn gàng
+ngăn nắp
+thần thái
+khí chất
+cuốn hút
+hấp dẫn
+sáng tạo
+đột phá
+đổi mới
+tiên tiến
+hiện đại
+cải tiến
+nâng cấp
+tối ưu
+tuyệt tác
+kiệt tác
+giai phẩm
+cực phẩm
+siêu phẩm
+đỉnh cao
+xuất thần
+thần sầu
+tuyệt cú mèo
+hết sảy
+hết ý
+số một
+số dách
+nhất
+vô đối
+đã
+phê
+thích thú
+khoái
+sung sướng
+phấn khởi
+phấn chấn
+hoan hỉ
+yên tâm
+thanh thản
+nhẹ nhõm
+thư thái
+dễ chịu
+sảng khoái
+hào hứng
+tự hào
+biết ơn
+cảm kích
+trân trọng
+ngưỡng mộ
+khâm phục
+tôn trọng
+hãnh diện
+thỏa mãn
+toại nguyện
+ưu việt
+lừng danh
+tao nhã
+trác tuyệt
+mỹ mãn
+hoàn mỹ
+thượng hạng
+cao cấp
+đẳng cấp
+danh giá
+uy tín
+chính xác
+minh bạch
+rõ ràng
+công bằng
+khách quan
+chu đáo
+tận tình
+tận tâm
+niềm nở
+nhanh nhẹn
+sâu sắc
+ý nghĩa
+nhân văn
+truyền cảm hứng
+truyền động lực
+thành công
+thắng lợi
+chiến thắng
+đạt
+đỗ
+
+# === SECTION 2: INTERNET SLANG, TEENCODE, MODERN EXPRESSIONS ===
+# Gồm các từ lóng, từ mới nổi trên mạng xã hội.
+xịn
+xịn sò
+chất
+chất lừ
+chất phát ngất
+đỉnh
+đỉnh của chóp
+hết nước chấm
+okla
+oke la
+iu
+iu thương
+cháy
+keo
+keo lỳ
+mlem
+mlem mlem
+gud chóp
+pro
+vip
+vip pro
+bá cháy
+bá đạo
+ảo diệu
+thật trân
+gét gô
+u là trời
+u là tr
+đáng đồng tiền bát gạo
+đáng nể
+ngon nghẻ
+ngon lành cành đào
+ổn áp
+ờ mây zing
+gu-gồ
+tủ
+chấm
+ảo ma ca-na-da
+khét
+khét lẹt
+đỉnh kout
+nhức nách
+tới công chuyện
+hết thuốc chữa
+rất gì và này nọ
+được của nó
+ra gì phết
+hết sảy con bà Bảy
+ngon bá cháy bọ chét
+nghe đã cái nư
+mùi mẫn
+ngọt nước
+ghê (khi đi với từ tích cực: đẹp ghê, hay ghê)
+thiệt (khi đi với từ tích cực: tốt thiệt, đã thiệt)
+chuẩn cơm mẹ nấu
+tít (vui tít mắt)
+ok
+oke
+okê
+ok luon
+ok lun
+ok luôn
+ok con dê
+chốt đơn
+duyệt
+mlem
+real
+real love
+uy tín
+uy tín luôn
+uy tín nha
+uy tín nhó
+lemỏn (chanh -> chảnh -> sang chảnh)
+ét o ét (SOS -> dùng hài hước khi có gì đó quá tốt/đẹp)
+flex (khoe theo hướng tích cực)
+slay (làm tốt, xuất sắc)
+over hợp (quá hợp)
+mai đẹt ti ni (my destiny - định mệnh)
+
+# === SECTION 3: COMBINATORIAL EXPANSION (INTENSIFIERS + ADJECTIVES) ===
+# Kết hợp các phó từ chỉ mức độ với tính từ tích cực.
+rất tốt
+rất hay
+rất đẹp
+rất tuyệt
+rất xuất sắc
+rất hoàn hảo
+rất tuyệt vời
+rất thích
+rất yêu
+rất hài lòng
+rất vui
+rất hạnh phúc
+rất tích cực
+rất ưng ý
+rất thú vị
+rất hữu ích
+rất chất lượng
+rất hiệu quả
+rất đáng tin cậy
+rất an toàn
+rất tin tưởng
+rất tiện lợi
+rất nhanh chóng
+rất dễ dàng
+rất hợp lý
+rất phù hợp
+rất đẹp mắt
+rất sang trọng
+rất tinh tế
+rất ổn
+rất được
+rất tuyệt diệu
+rất kỳ diệu
+rất tuyệt hảo
+rất lý tưởng
+rất xuất chúng
+rất siêu việt
+rất tài tình
+rất giỏi
+rất khéo léo
+rất thông minh
+rất lanh lợi
+rất dễ thương
+rất đáng yêu
+rất ngọt ngào
+rất ấm áp
+rất chuyên nghiệp
+rất mượt
+rất mượt mà
+rất bén
+rất ngon
+rất khỏe
+rất mạnh
+rất sáng sủa
+rất sạch sẽ
+rất gọn gàng
+rất ngăn nắp
+rất thần thái
+rất khí chất
+rất cuốn hút
+rất hấp dẫn
+rất sáng tạo
+rất đột phá
+rất chuyên nghiệp
+rất chu đáo
+rất tận tình
+rất tận tâm
+rất sâu sắc
+rất ý nghĩa
+cực kỳ tốt
+cực kỳ hay
+cực kỳ đẹp
+cực kỳ tuyệt vời
+cực kỳ xuất sắc
+cực kỳ hoàn hảo
+cực kỳ hài lòng
+cực kỳ vui
+cực kỳ hạnh phúc
+cực kỳ tích cực
+cực kỳ ưng ý
+cực kỳ thú vị
+cực kỳ hữu ích
+cực kỳ chất lượng
+cực kỳ hiệu quả
+cực kỳ đáng tin cậy
+cực kỳ an toàn
+cực kỳ tiện lợi
+cực kỳ nhanh chóng
+cực kỳ dễ dàng
+cực kỳ hợp lý
+cực kỳ phù hợp
+cực kỳ sang trọng
+cực kỳ tinh tế
+cực kỳ ổn
+cực kỳ giỏi
+cực kỳ khéo léo
+cực kỳ thông minh
+cực kỳ dễ thương
+cực kỳ đáng yêu
+cực kỳ ngọt ngào
+cực kỳ chuyên nghiệp
+cực kỳ mượt
+cực kỳ ngon
+cực kỳ sạch sẽ
+cực kỳ gọn gàng
+cực kỳ cuốn hút
+cực kỳ hấp dẫn
+cực kỳ sáng tạo
+cực kỳ chu đáo
+cực kỳ tận tình
+cực kỳ sâu sắc
+cực kỳ ý nghĩa
+vô cùng tốt
+vô cùng hay
+vô cùng đẹp
+vô cùng tuyệt vời
+vô cùng xuất sắc
+vô cùng hoàn hảo
+vô cùng hài lòng
+vô cùng vui
+vô cùng hạnh phúc
+vô cùng tích cực
+vô cùng ưng ý
+vô cùng thú vị
+vô cùng hữu ích
+vô cùng chất lượng
+vô cùng hiệu quả
+vô cùng đáng tin cậy
+vô cùng an toàn
+vô cùng tiện lợi
+vô cùng nhanh chóng
+vô cùng dễ dàng
+vô cùng hợp lý
+vô cùng phù hợp
+vô cùng sang trọng
+vô cùng tinh tế
+vô cùng giỏi
+vô cùng khéo léo
+vô cùng thông minh
+vô cùng dễ thương
+vô cùng đáng yêu
+vô cùng ngọt ngào
+vô cùng chuyên nghiệp
+vô cùng mượt
+vô cùng ngon
+vô cùng sạch sẽ
+vô cùng gọn gàng
+vô cùng cuốn hút
+vô cùng hấp dẫn
+vô cùng sáng tạo
+vô cùng chu đáo
+vô cùng tận tình
+vô cùng sâu sắc
+vô cùng ý nghĩa
+vô cùng biết ơn
+vô cùng cảm kích
+vô cùng trân trọng
+vô cùng ngưỡng mộ
+vô cùng khâm phục
+quá tốt
+quá hay
+quá đẹp
+quá tuyệt vời
+quá xuất sắc
+quá hoàn hảo
+quá hài lòng
+quá vui
+quá hạnh phúc
+quá ưng ý
+quá thú vị
+quá hữu ích
+quá chất lượng
+quá hiệu quả
+quá tiện lợi
+quá nhanh
+quá dễ
+quá hợp lý
+quá sang trọng
+quá tinh tế
+quá giỏi
+quá khéo
+quá thông minh
+quá dễ thương
+quá đáng yêu
+quá ngọt ngào
+quá chuyên nghiệp
+quá mượt
+quá ngon
+quá sạch
+quá gọn gàng
+quá cuốn hút
+quá hấp dẫn
+quá sáng tạo
+quá chu đáo
+quá tận tình
+quá đỉnh
+quá đã
+quá xá đã
+quá xá ngon
+quá xá đẹp
+siêu tốt
+siêu hay
+siêu đẹp
+siêu tuyệt vời
+siêu xuất sắc
+siêu hoàn hảo
+siêu hài lòng
+siêu vui
+siêu hạnh phúc
+siêu ưng ý
+siêu thú vị
+siêu hữu ích
+siêu chất lượng
+siêu hiệu quả
+siêu tiện lợi
+siêu nhanh
+siêu dễ
+siêu hợp lý
+siêu sang
+siêu xịn
+siêu tinh tế
+siêu giỏi
+siêu khéo
+siêu thông minh
+siêu dễ thương
+siêu đáng yêu
+siêu ngọt ngào
+siêu chuyên nghiệp
+siêu mượt
+siêu ngon
+siêu sạch
+siêu gọn gàng
+siêu cuốn hút
+siêu hấp dẫn
+siêu sáng tạo
+siêu đỉnh
+siêu đã
+siêu cưng
+thật sự tốt
+thật sự hay
+thật sự đẹp
+thật sự tuyệt vời
+thật sự xuất sắc
+thật sự hoàn hảo
+thật sự hài lòng
+thật sự vui
+thật sự hạnh phúc
+thật sự tích cực
+thật sự ưng ý
+thật sự thú vị
+thật sự hữu ích
+thật sự chất lượng
+thật sự hiệu quả
+thật sự đáng tin cậy
+thật sự an toàn
+thật sự tiện lợi
+thật sự nhanh chóng
+thật sự dễ dàng
+thật sự hợp lý
+thật sự phù hợp
+thật sự sang trọng
+thật sự tinh tế
+thật sự giỏi
+thật sự khéo léo
+thật sự thông minh
+thật sự dễ thương
+thật sự đáng yêu
+thật sự ngọt ngào
+thật sự chuyên nghiệp
+thật sự mượt
+thật sự ngon
+thật sự sạch sẽ
+thật sự gọn gàng
+thật sự cuốn hút
+thật sự hấp dẫn
+thật sự sáng tạo
+thật sự chu đáo
+thật sự tận tình
+thật sự sâu sắc
+thật sự ý nghĩa
+thật sự biết ơn
+thật sự cảm kích
+thật sự trân trọng
+thật sự ngưỡng mộ
+thật sự khâm phục
+tuyệt vời ông mặt trời
+xuất sắc luôn
+hoàn hảo luôn
+tuyệt vời luôn
+hài lòng lắm
+vui lắm
+hạnh phúc lắm
+ưng ý lắm
+thích lắm
+thú vị lắm
+hữu ích lắm
+chất lượng lắm
+hiệu quả lắm
+tiện lợi lắm
+nhanh lắm
+dễ lắm
+giỏi lắm
+khéo lắm
+dễ thương lắm
+đáng yêu lắm
+ngon lắm
+sạch lắm
+đẹp lắm
+hay lắm
+tốt lắm
+tốt ghê
+hay ghê
+đẹp ghê
+giỏi ghê
+ngon ghê
+nhanh ghê
+dễ thương ghê
+đã ghê
+tốt thiệt
+hay thiệt
+đẹp thiệt
+giỏi thiệt
+ngon thiệt
+nhanh thiệt
+dễ thương thiệt
+đã thiệt
+tốt thật
+hay thật
+đẹp thật
+giỏi thật
+ngon thật
+nhanh thật
+dễ thương thật
+đã thật
+tốt thế
+hay thế
+đẹp thế
+giỏi thế
+ngon thế
+nhanh thế
+dễ thương thế
+đã thế
+tốt ghê cơ
+hay ghê cơ
+đẹp ghê cơ
+giỏi ghê cơ
+tốt thế chứ lị
+hay thế chứ lị
+đẹp thế chứ lị
+giỏi thế chứ lị
+không thể tốt hơn
+không thể hay hơn
+không thể đẹp hơn
+không thể tuyệt vời hơn
+không thể xuất sắc hơn
+không thể hoàn hảo hơn
+không thể chê vào đâu được
+không có gì để chê
+không có điểm trừ
+
+# === SECTION 4: POSITIVE PHRASES & CONTEXTUAL PATTERNS ===
+# Các cụm từ, mẫu câu hoàn chỉnh mang nghĩa tích cực.
+# --- Service/Product Evaluation ---
+dịch vụ tốt
+sản phẩm tốt
+trải nghiệm tốt
+chất lượng tốt
+giá tốt
+giá hợp lý
+dịch vụ tuyệt vời
+sản phẩm tuyệt vời
+trải nghiệm tuyệt vời
+chất lượng tuyệt vời
+dịch vụ xuất sắc
+sản phẩm xuất sắc
+trải nghiệm xuất sắc
+chất lượng xuất sắc
+dịch vụ năm sao
+chất lượng năm sao
+đáng tiền
+đáng đồng tiền
+đáng đồng tiền bát gạo
+đáng để thử
+đáng để trải nghiệm
+đáng để mua
+đáng để ủng hộ
+sẽ quay lại
+sẽ ủng hộ tiếp
+sẽ giới thiệu cho bạn bè
+sẽ giới thiệu cho mọi người
+rất đáng tiền
+rất đáng để thử
+rất đáng để trải nghiệm
+hoàn toàn hài lòng
+hoàn toàn xứng đáng
+vượt qua mong đợi
+trên cả mong đợi
+vượt xa kỳ vọng
+làm tôi rất hài lòng
+khiến tôi rất hài lòng
+thực sự ấn tượng
+gây ấn tượng mạnh
+tôi rất thích
+tôi rất hài lòng
+tôi rất ưng ý
+tôi rất ấn tượng
+tôi thực sự thích
+tôi thực sự hài lòng
+tôi thực sự ưng ý
+tôi thực sự ấn tượng
+mình rất thích
+mình rất hài lòng
+mình rất ưng ý
+mình rất ấn tượng
+shop phục vụ tốt
+shop tư vấn nhiệt tình
+nhân viên nhiệt tình
+nhân viên thân thiện
+nhân viên dễ thương
+nhân viên chu đáo
+nhân viên chuyên nghiệp
+giao hàng nhanh
+đóng gói cẩn thận
+đóng gói đẹp
+sản phẩm như mô tả
+sản phẩm đúng như mô tả
+sản phẩm giống hình
+sản phẩm chất lượng
+hàng chuẩn
+hàng xịn
+hàng chất lượng cao
+hàng chính hãng
+có tâm
+làm việc có tâm
+bán hàng có tâm
+shop có tâm
+ủng hộ shop
+ủng hộ quán
+ủng hộ nhà hàng
+cho 5 sao
+cho shop 5 sao
+cho quán 5 sao
+vote 5 sao
+rate 5 sao
+highly recommend
+highly recommended
+rất khuyến khích
+nên mua
+nên thử
+nên trải nghiệm
+# --- Personal Feelings & Reactions ---
+cảm thấy vui
+cảm thấy hạnh phúc
+cảm thấy tuyệt vời
+cảm thấy may mắn
+cảm thấy được truyền cảm hứng
+cảm thấy tự hào
+cảm thấy biết ơn
+cảm thấy nhẹ nhõm
+cảm thấy yêu đời
+làm tôi vui
+làm tôi hạnh phúc
+làm tôi yêu đời
+yêu bạn
+yêu lắm
+thương lắm
+thích mê
+mê tít
+mê mẩn
+say đắm
+say mê
+tuyệt vời quá
+xuất sắc quá
+hoàn hảo quá
+đỉnh quá
+hay quá
+đẹp quá
+giỏi quá
+ngon quá
+dễ thương quá
+đáng yêu quá
+# --- Praising People & Work ---
+bạn thật tuyệt vời
+bạn thật giỏi
+bạn thật tài năng
+bạn thật thông minh
+bạn thật tốt bụng
+bạn thật tử tế
+bạn làm tốt lắm
+làm tốt lắm
+cố lên nhé
+tuyệt vời, cố lên
+bạn là số một
+ngưỡng mộ bạn
+khâm phục bạn
+tự hào về bạn
+cảm ơn bạn
+cảm ơn rất nhiều
+trân trọng nỗ lực của bạn
+làm rất tốt
+làm rất chuyên nghiệp
+kết quả ấn tượng
+kết quả tuyệt vời
+màn trình diễn xuất sắc
+bài viết rất hay
+bài viết rất ý nghĩa
+bài viết rất sâu sắc
+quan điểm rất hay
+ý tưởng rất hay
+ý tưởng sáng tạo
+góc nhìn mới mẻ
+phân tích sâu sắc
+lập luận chặt chẽ
+# --- General Affirmations ---
+đồng ý
+hoàn toàn đồng ý
+nhất trí
+chính xác
+chuẩn
+quá chuẩn
+đúng vậy
+đúng thế
+chắc chắn rồi
+tất nhiên rồi
+không còn gì tuyệt hơn
+không thể tin được (theo hướng tích cực)
+thật không thể tin nổi (theo hướng tích cực)
+thật bất ngờ (theo hướng tích cực)
+thật vi diệu
+thật tuyệt
+thật tuyệt vời
+thật đáng ngưỡng mộ
+quá tuyệt
+quá đỉnh
+quá hay
+quá đẹp
+quá ngon
+quá chất
+yêu đời
+lạc quan
+tươi vui
+rạng rỡ
+năng lượng
+tràn đầy năng lượng
+tích cực
+suy nghĩ tích cực
+nhìn về phía trước
+luôn mỉm cười
+vui lên nào
+cứ tiếp tục phát huy
+phát huy nhé
+
+# --- DOMAIN-SPECIFIC POSITIVES ---
+# Food
+ngon miệng
+vừa miệng
+đậm đà
+thơm ngon
+nóng hổi
+tươi
+tươi rói
+tươi ngon
+chuẩn vị
+đúng vị
+hương vị tuyệt vời
+trình bày đẹp mắt
+# Technology
+ổn định
+bền
+bảo mật
+dễ sử dụng
+dễ dùng
+thân thiện với người dùng
+giao diện đẹp
+giao diện trực quan
+tốc độ nhanh
+xử lý mượt
+không giật lag
+không lag
+pin trâu
+pin tốt
+# Art/Music/Film
+sâu lắng
+giai điệu hay
+giai điệu đẹp
+lời bài hát ý nghĩa
+ca từ sâu sắc
+diễn xuất tốt
+diễn xuất đỉnh cao
+cốt truyện hay
+cốt truyện hấp dẫn
+hình ảnh đẹp
+màu phim đẹp
+kỹ xảo tốt
+mang lại nhiều cảm xúc
+chạm đến trái tim
+# Appearance/Fashion
+xinh
+xinh đẹp
+xinh xắn
+lộng lẫy
+quyến rũ
+cuốn hút
+điển trai
+phong độ
+bảnh bao
+có gu
+gu ăn mặc tốt
+phối đồ đẹp
+thời trang
+sành điệu
+hợp mốt
+# --- END OF LEXICON ---

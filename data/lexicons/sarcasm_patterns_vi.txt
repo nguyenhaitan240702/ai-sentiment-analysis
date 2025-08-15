@@ -1,0 +1,77 @@
+# Vietnamese Sarcasm Patterns and Indicators
+# Format: phrase|intensity|context_required
+# Intensity: -3 (very sarcastic) to -1 (mild sarcasm)
+
+# === STRONG SARCASM ===
+hay quá đi|-2.5|true
+tuyệt quá|-2.0|true
+perfect quá|-2.2|true
+xuất sắc thật|-2.3|true
+tuyệt vời thế|-2.1|true
+amazing|-1.8|true
+wonderful|-1.9|true
+fantastic|-2.0|true
+đỉnh của chóp|-2.4|true
+siêu tuyệt|-2.3|true
+quá là hay|-2.1|true
+hay vãi|-2.5|true
+tuyệt vời vãi|-2.6|true
+
+# === MILD SARCASM ===
+hay đấy|-1.5|true
+tốt thế|-1.4|true
+ổn đấy|-1.3|true
+nice|-1.2|true
+great|-1.4|true
+good job|-1.3|true
+well done|-1.5|true
+chúc mừng|-1.6|true
+tuyệt|-1.4|true
+ok luôn|-1.3|true
+
+# === IRONIC EXPRESSIONS ===
+cũng được|-1.2|false
+tạm ổn|-1.1|false
+không tệ|-1.0|false
+chấp nhận được|-1.2|false
+tàm tạm|-1.3|false
+cũng hay|-1.1|false
+không sao|-1.0|false
+
+# === CONTEXT WORDS FOR SARCASM DETECTION ===
+# These words when appearing with positive words indicate sarcasm
+# Format: word|weight
+hỏng|1.0
+lỗi|1.0
+chờ|0.8
+lâu|0.7
+tệ|1.0
+thất vọng|1.0
+kém|0.9
+dở|0.9
+xấu|0.8
+chậm|0.7
+lag|0.8
+crash|1.0
+bug|0.9
+không hoạt động|1.0
+không chạy|0.9
+đứng máy|0.8
+treo|0.7
+lỗ hổng|0.9
+vấn đề|0.8
+khó chịu|0.7
+phiền|0.6
+bực|0.8
+tức|0.7
+giận|0.8
+mất thời gian|0.7
+lãng phí|0.8
+không đáng|0.7
+thảm họa|1.0
+kinh khủng|0.9
+ghê tởm|0.9
+ác mộng|0.8
+đau đầu|0.6
+stress|0.7
+căng thẳng|0.6

@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "mapping_date": "2025-08-15",
+    "calibration_samples": 10000,
+    "validation_samples": 2000,
+    "accuracy_target": 0.90,
+    "version": "1.0"
+  },
+  "confidence_thresholds": {
+    "very_high": {
+      "min_confidence": 0.90,
+      "expected_accuracy": 0.95,
+      "action": "auto_accept",
+      "human_review_required": false
+    },
+    "high": {
+      "min_confidence": 0.80,
+      "expected_accuracy": 0.88,
+      "action": "accept_with_flag",
+      "human_review_required": false
+    },
+    "medium": {
+      "min_confidence": 0.65,
+      "expected_accuracy": 0.75,
+      "action": "accept_with_warning",
+      "human_review_required": true
+    },
+    "low": {
+      "min_confidence": 0.50,
+      "expected_accuracy": 0.60,
+      "action": "manual_review",
+      "human_review_required": true
+    },
+    "very_low": {
+      "min_confidence": 0.00,
+      "expected_accuracy": 0.45,
+      "action": "reject_or_manual",
+      "human_review_required": true
+    }
+  },
+  "confidence_factors": {
+    "pattern_match": {
+      "exact_expert_pattern": 0.95,
+      "similar_expert_pattern": 0.85,
+      "partial_pattern_match": 0.70,
+      "no_pattern_match": 0.30
+    },
+    "consensus_level": {
+      "unanimous_expert_agreement": 0.95,
+      "high_expert_agreement": 0.85,
+      "moderate_agreement": 0.70,
+      "low_agreement": 0.50,
+      "no_consensus": 0.30
+    },
+    "context_clarity": {
+      "clear_context": 0.90,
+      "moderate_context": 0.75,
+      "ambiguous_context": 0.60,
+      "no_context": 0.40
+    },
+    "linguistic_complexity": {
+      "simple_structure": 0.85,
+      "moderate_complexity": 0.75,
+      "complex_structure": 0.65,
+      "very_complex": 0.50
+    },
+    "sarcasm_irony": {
+      "no_sarcasm": 0.90,
+      "low_sarcasm_probability": 0.75,
+      "medium_sarcasm_probability": 0.60,
+      "high_sarcasm_probability": 0.45
+    }
+  },
+  "confidence_calculation": {
+    "formula": "weighted_average",
+    "weights": {
+      "pattern_match": 0.30,
+      "consensus_level": 0.25,
+      "context_clarity": 0.20,
+      "linguistic_complexity": 0.15,
+      "sarcasm_irony": 0.10
+    },
+    "base_confidence": 0.50,
+    "adjustment_rules": [
+      {
+        "condition": "multiple_strong_indicators",
+        "adjustment": "+0.15"
+      },
+      {
+        "condition": "contradictory_signals",
+        "adjustment": "-0.20"
+      },
+      {
+        "condition": "rare_pattern_detected",
+        "adjustment": "-0.10"
+      },
+      {
+        "condition": "domain_expertise_match",
+        "adjustment": "+0.10"
+      }
+    ]
+  },
+  "similarity_mapping": {
+    "text_similarity_thresholds": {
+      "very_high": {
+        "min_similarity": 0.95,
+        "confidence_boost": 0.20
+      },
+      "high": {
+        "min_similarity": 0.85,
+        "confidence_boost": 0.15
+      },
+      "medium": {
+        "min_similarity": 0.70,
+        "confidence_boost": 0.10
+      },
+      "low": {
+        "min_similarity": 0.50,
+        "confidence_boost": 0.05
+      }
+    },
+    "semantic_similarity_weights": {
+      "exact_phrase_match": 1.0,
+      "synonym_match": 0.8,
+      "semantic_equivalence": 0.6,
+      "topic_similarity": 0.4,
+      "domain_similarity": 0.2
+    }
+  },
+  "calibration_data": {
+    "confidence_vs_accuracy": [
+      {"confidence_range": "0.90-1.00", "actual_accuracy": 0.94, "sample_count": 1200},
+      {"confidence_range": "0.80-0.90", "actual_accuracy": 0.87, "sample_count": 2100},
+      {"confidence_range": "0.70-0.80", "actual_accuracy": 0.78, "sample_count": 2800},
+      {"confidence_range": "0.60-0.70", "actual_accuracy": 0.68, "sample_count": 2200},
+      {"confidence_range": "0.50-0.60", "actual_accuracy": 0.58, "sample_count": 1100},
+      {"confidence_range": "0.00-0.50", "actual_accuracy": 0.42, "sample_count": 600}
+    ],
+    "confidence_by_category": {
+      "positive_clear": 0.89,
+      "negative_clear": 0.87,
+      "neutral": 0.72,
+      "sarcastic": 0.64,
+      "mixed_sentiment": 0.58,
+      "context_dependent": 0.61
+    }
+  },
+  "fallback_strategies": {
+    "low_confidence_actions": [
+      {
+        "trigger": "confidence < 0.65",
+        "action": "find_similar_expert_samples",
+        "parameters": {"top_k": 5, "similarity_threshold": 0.7}
+      },
+      {
+        "trigger": "confidence < 0.50",
+        "action": "ensemble_with_multiple_methods",
+        "parameters": {"methods": ["rule_based", "similarity_search", "pattern_matching"]}
+      },
+      {
+        "trigger": "confidence < 0.35",
+        "action": "flag_for_human_review",
+        "parameters": {"priority": "high", "reason": "very_low_confidence"}
+      }
+    ],
+    "uncertainty_indicators": [
+      "contradictory_sentiment_signals",
+      "multiple_valid_interpretations",
+      "insufficient_context",
+      "unknown_domain_terminology",
+      "complex_linguistic_structure"
+    ]
+  },
+  "performance_metrics": {
+    "overall_accuracy": 0.89,
+    "precision_by_confidence": {
+      "high_confidence": 0.94,
+      "medium_confidence": 0.81,
+      "low_confidence": 0.67
+    },
+    "coverage_by_confidence": {
+      "high_confidence": 0.32,
+      "medium_confidence": 0.45,
+      "low_confidence": 0.23
+    },
+    "false_positive_rate": 0.08,
+    "false_negative_rate": 0.11
+  }
+}
+

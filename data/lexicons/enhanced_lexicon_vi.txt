@@ -1,0 +1,149 @@
+# Enhanced Vietnamese Sentiment Lexicon with Weighted Scores
+# Format: word/phrase|score|category|domain
+# Score range: -3 (very negative) to +3 (very positive)
+
+# === POSITIVE WORDS ===
+# Core positive (score: +3)
+tuyệt vời|3|core|general
+xuất sắc|3|core|general
+hoàn hảo|3|core|general
+tuyệt diệu|3|core|general
+tuyệt đỉnh|3|core|general
+cực kỳ tốt|3|core|general
+siêu tuyệt|3|core|general
+
+# Strong positive (score: +2.5)
+rất tốt|2.5|strong|general
+rất hay|2.5|strong|general
+cực hay|2.5|strong|general
+cực tốt|2.5|strong|general
+quá tuyệt|2.5|strong|general
+tài tình|2.5|strong|general
+đỉnh cao|2.5|strong|general
+
+# Positive (score: +2)
+tốt|2|normal|general
+hay|2|normal|general
+đẹp|2|normal|general
+thích|2|normal|general
+hài lòng|2|normal|general
+tuyệt|2|normal|general
+vui|2|normal|general
+hạnh phúc|2|normal|general
+
+# Mild positive (score: +1.5)
+ổn|1.5|mild|general
+được|1.5|mild|general
+ok|1.5|mild|general
+khá|1.5|mild|general
+khá tốt|1.5|mild|general
+cũng hay|1.5|mild|general
+
+# Weak positive (score: +1)
+tạm ổn|1|weak|general
+không tệ|1|weak|general
+chấp nhận được|1|weak|general
+tạm được|1|weak|general
+
+# === NEGATIVE WORDS ===
+# Core negative (score: -3)
+khủng khiếp|-3|core|general
+thảm họa|-3|core|general
+tồi tệ|-3|core|general
+kinh khủng|-3|core|general
+ghê tởm|-3|core|general
+cực tệ|-3|core|general
+quá tệ|-3|core|general
+
+# Strong negative (score: -2.5)
+rất tệ|-2.5|strong|general
+rất xấu|-2.5|strong|general
+cực kỳ tệ|-2.5|strong|general
+thất vọng|-2.5|strong|general
+ghét|-2.5|strong|general
+
+# Negative (score: -2)
+tệ|-2|normal|general
+xấu|-2|normal|general
+dở|-2|normal|general
+kém|-2|normal|general
+không thích|-2|normal|general
+không hài lòng|-2|normal|general
+
+# Mild negative (score: -1.5)
+không tốt|-1.5|mild|general
+không hay|-1.5|mild|general
+chưa ổn|-1.5|mild|general
+
+# Weak negative (score: -1)
+không ổn lắm|-1|weak|general
+hơi tệ|-1|weak|general
+
+# === INTENSIFIERS ===
+rất|2|intensifier|general
+cực|2.5|intensifier|general
+cực kỳ|2.5|intensifier|general
+quá|2|intensifier|general
+vô cùng|2.5|intensifier|general
+hết sức|2|intensifier|general
+siêu|2|intensifier|general
+ultra|2.5|intensifier|general
+extremely|2.5|intensifier|general
+very|2|intensifier|general
+
+# === NEGATORS ===
+không|-1|negator|general
+chẳng|-1|negator|general
+chả|-1|negator|general
+chưa|-0.7|negator|general
+never|-1|negator|general
+not|-1|negator|general
+no way|-1|negator|general
+
+# === DOMAIN SPECIFIC ===
+# Technology
+nhanh|2|performance|tech
+chậm|-2|performance|tech
+lag|-2|performance|tech
+mượt|2|performance|tech
+giật|-2|performance|tech
+ổn định|2|stability|tech
+crash|-3|stability|tech
+lỗi|-2|quality|tech
+
+# Food & Restaurant
+ngon|2|taste|food
+dở|-2|taste|food
+mặn|-1|taste|food
+nhạt|-1.5|taste|food
+tươi|2|freshness|food
+ôi|-3|freshness|food
+
+# === CONTEXTUAL MODIFIERS ===
+# Comparison modifiers
+hơn kỳ vọng|1.5|comparison|general
+không như kỳ vọng|-1.5|comparison|general
+tốt hơn tưởng|1.5|comparison|general
+tệ hơn tưởng|-1.5|comparison|general
+
+# Conditional expressions
+nếu rẻ hơn thì|0.5|conditional|general
+giá mà|0.3|conditional|general
+ước gì|0.3|conditional|general
+
+# Sarcasm indicators (need special handling)
+hay quá đi|-1|sarcasm|general
+tuyệt quá|-1|sarcasm|general
+
+# === VIETNAMESE SLANG ===
+bá cháy|2.5|slang|general
+xịn sò|2|slang|general
+xịn xò|2|slang|general
+chill|1.5|slang|general
+ngon bổ rẻ|2|slang|general
+
+# === PHRASES ===
+như cá gặp nước|2.5|idiom|general
+như chuối ba gang|-2.5|idiom|general
+tốt như vàng|2.5|idiom|general
+dở như bã|-2.5|idiom|general

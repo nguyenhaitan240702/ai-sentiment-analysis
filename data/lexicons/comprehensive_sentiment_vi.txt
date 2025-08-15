@@ -1,0 +1,149 @@
+# Vietnamese Comprehensive Sentiment Lexicon by Domain
+# Format: word/phrase|score|domain|subcategory|confidence
+
+# === TECHNOLOGY DOMAIN ===
+# Performance related
+nhanh|2.0|tech|performance|0.9
+siêu nhanh|2.5|tech|performance|0.9
+chậm chạp|-2.0|tech|performance|0.9
+lag giật|-2.5|tech|performance|0.9
+mượt mà|2.0|tech|performance|0.9
+trơn tru|1.8|tech|performance|0.8
+đơ|-1.5|tech|performance|0.8
+giật lag|-2.2|tech|performance|0.9
+loading lâu|-1.8|tech|performance|0.8
+tải nhanh|1.8|tech|performance|0.8
+
+# Stability related
+ổn định|2.0|tech|stability|0.9
+crash|-3.0|tech|stability|1.0
+đứng máy|-2.8|tech|stability|0.9
+treo|-2.5|tech|stability|0.8
+bug|-2.0|tech|stability|0.8
+lỗi|-2.0|tech|quality|0.9
+không lỗi|2.0|tech|quality|0.8
+stable|2.0|tech|stability|0.8
+reliable|2.2|tech|reliability|0.9
+
+# User Experience
+user-friendly|2.0|tech|ux|0.8
+dễ sử dụng|2.0|tech|ux|0.9
+phức tạp|-1.5|tech|ux|0.8
+rối rắm|-1.8|tech|ux|0.7
+intuitive|1.8|tech|ux|0.8
+confusing|-1.6|tech|ux|0.7
+
+# === FOOD & RESTAURANT DOMAIN ===
+# Taste
+ngon|2.5|food|taste|0.9
+ngon tuyệt|3.0|food|taste|0.95
+dở tệ|-2.5|food|taste|0.9
+mặn quá|-1.5|food|taste|0.8
+nhạt nhẽo|-1.8|food|taste|0.8
+tươi ngon|2.3|food|freshness|0.9
+ôi thiu|-3.0|food|freshness|1.0
+hết hạn|-2.8|food|quality|0.9
+delicious|2.5|food|taste|0.9
+tasty|2.0|food|taste|0.8
+
+# Service
+phục vụ tốt|2.0|food|service|0.8
+thái độ tệ|-2.2|food|service|0.9
+nhanh nhẹn|1.8|food|service|0.8
+chậm chạp|-1.8|food|service|0.8
+nhiệt tình|2.0|food|service|0.8
+lạnh lùng|-1.5|food|service|0.7
+
+# Ambiance
+không gian đẹp|1.8|food|ambiance|0.7
+ồn ào|-1.5|food|ambiance|0.8
+yên tĩnh|1.5|food|ambiance|0.7
+sạch sẽ|1.8|food|hygiene|0.8
+bẩn thỉu|-2.5|food|hygiene|0.9
+
+# === ECOMMERCE/SHOPPING DOMAIN ===
+# Price
+rẻ|1.5|shop|price|0.8
+hợp lý|1.8|shop|price|0.8
+đắt|-1.5|shop|price|0.8
+overpriced|-2.0|shop|price|0.8
+good value|2.0|shop|value|0.8
+worth it|2.2|shop|value|0.9
+lừa đảo|-3.0|shop|trust|1.0
+
+# Quality
+chất lượng tốt|2.2|shop|quality|0.9
+kém chất lượng|-2.0|shop|quality|0.9
+bền|1.8|shop|durability|0.8
+dễ hỏng|-2.0|shop|durability|0.8
+fake|-2.5|shop|authenticity|0.9
+hàng thật|1.8|shop|authenticity|0.8
+
+# Shipping
+giao nhanh|2.0|shop|shipping|0.8
+giao chậm|-1.8|shop|shipping|0.8
+đóng gói cẩn thận|1.8|shop|packaging|0.7
+vỡ hàng|-2.5|shop|packaging|0.9
+
+# === CUSTOMER SERVICE DOMAIN ===
+# Support Quality
+hỗ trợ tốt|2.2|service|support|0.9
+giải quyết nhanh|2.5|service|efficiency|0.9
+kéo dài|-1.8|service|efficiency|0.8
+thông thạo|2.0|service|competence|0.8
+không hiểu biết|-2.0|service|competence|0.8
+
+# Attitude
+nhiệt tình|2.0|service|attitude|0.8
+thân thiện|2.0|service|attitude|0.8
+lạnh lùng|-1.5|service|attitude|0.8
+thô lỗ|-2.5|service|attitude|0.9
+professional|1.8|service|professionalism|0.8
+
+# === GENERAL EMOTIONAL EXPRESSIONS ===
+# Excitement
+hào hứng|2.2|general|excitement|0.8
+phấn khích|2.0|general|excitement|0.8
+excited|2.0|general|excitement|0.8
+boring|-1.5|general|engagement|0.7
+chán|-1.5|general|engagement|0.8
+
+# Satisfaction levels
+siêu hài lòng|3.0|general|satisfaction|0.95
+rất hài lòng|2.5|general|satisfaction|0.9
+hài lòng|2.0|general|satisfaction|0.9
+không hài lòng|-2.0|general|satisfaction|0.9
+thất vọng|-2.5|general|satisfaction|0.9
+siêu thất vọng|-3.0|general|satisfaction|0.95
+
+# === VIETNAMESE SLANG & COLLOQUIAL ===
+# Positive slang
+bá cháy|2.8|slang|positive|0.9
+xịn sò|2.2|slang|positive|0.8
+xịn xò|2.0|slang|positive|0.8
+ngon bổ rẻ|2.5|slang|value|0.9
+chill|1.5|slang|relaxed|0.7
+oke|1.5|slang|acceptance|0.7
+okie|1.5|slang|acceptance|0.7
+
+# Negative slang
+tởm lợm|-2.5|slang|negative|0.8
+cùi bắp|-2.0|slang|negative|0.8
+tệ bạc|-2.2|slang|negative|0.8
+như cứt|-2.8|slang|negative|0.9
+vãi|-2.0|slang|negative|0.8
+đéo|-2.5|slang|negative|0.9
+
+# === INTENSITY MODIFIERS ===
+# Extreme positive
+siêu|2.5|modifier|intensifier|0.9
+cực kỳ|2.5|modifier|intensifier|0.9
+vô cùng|2.8|modifier|intensifier|0.9
+hết sức|2.2|modifier|intensifier|0.8
+ultra|2.5|modifier|intensifier|0.8
+mega|2.3|modifier|intensifier|0.8
+
+# Extreme negative
+cực kỳ tệ|-2.8|modifier|intensifier|0.9
+siêu tệ|-2.5|modifier|intensifier|0.9
+vô cùng tệ|-3.0|modifier|intensifier|0.95

@@ -1,0 +1,51 @@
+# Vietnamese Temporal Sentiment Patterns
+# Format: start_phrase|connector|end_phrase|weight|description
+
+# === BASIC TEMPORAL TRANSITIONS ===
+ban đầu|nhưng|sau|0.7|initial vs later sentiment
+lúc đầu|nhưng|giờ|0.8|beginning vs current
+trước|nhưng|bây giờ|0.8|past vs present
+trước đây|nhưng|hiện tại|0.8|past vs present
+lúc trước|nhưng|lúc này|0.7|before vs now
+thời điểm đầu|nhưng|thời điểm này|0.7|initial vs current
+
+# === PROGRESSION PATTERNS ===
+ban đầu|rồi|sau đó|0.6|sequential progression
+đầu tiên|sau đó|cuối cùng|0.8|step by step progression
+lúc đầu|rồi|về sau|0.7|gradual change
+khởi đầu|nhưng|kết thúc|0.9|beginning vs ending
+
+# === COMPARISON PATTERNS ===
+so với trước|thì|giờ|0.7|temporal comparison
+compared to before|now|much|0.7|temporal comparison
+nếu so với|thì|bây giờ|0.6|conditional comparison
+
+# === EXPECTATION VS REALITY ===
+tưởng|nhưng|thực tế|0.8|expectation vs reality
+nghĩ là|nhưng|hóa ra|0.8|thought vs reality
+kỳ vọng|nhưng|thực sự|0.7|expectation vs actual
+hy vọng|nhưng|kết quả|0.7|hope vs result
+dự đoán|nhưng|thật ra|0.6|prediction vs reality
+
+# === CONDITIONAL TEMPORAL ===
+nếu|thì|sau này|0.5|conditional future
+giả sử|thì|về sau|0.5|hypothetical progression
+trong trường hợp|thì|sẽ|0.4|conditional scenario
+
+# === EXPERIENCE PROGRESSION ===
+kinh nghiệm đầu|nhưng|sau khi|0.7|experience progression
+lần đầu|nhưng|về sau|0.6|first time vs later
+mới dùng|nhưng|dùng lâu|0.7|initial vs extended use
+trial|nhưng|long term|0.7|trial vs long term
+
+# === IMMEDIATE VS DELAYED ===
+ngay lập tức|nhưng|sau một thời gian|0.6|immediate vs delayed
+instant|but|after a while|0.6|immediate vs delayed
+tức thì|nhưng|về lâu dài|0.7|instant vs long term
+
+# === SENTIMENT WORDS FOR TEMPORAL ANALYSIS ===
+# Positive progression indicators
+positive_words=thích,tốt,hay,ổn,hài lòng,tuyệt,xuất sắc,hoàn hảo,tuyệt vời,yêu,vui,hạnh phúc,tích cực,hữu ích,hiệu quả,đáng tin cậy,tiện lợi,dễ dàng,phù hợp
+
+# Negative progression indicators
+negative_words=tệ,xấu,dở,kém,thất vọng,không thích,ghét,không hài lòng,buồn,tức giận,tiêu cực,khó chịu,phức tạp,khó khăn,không tốt,không hay,đắt,không hợp lý,nguy hiểm

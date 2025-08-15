@@ -1,0 +1,77 @@
+# Vietnamese Grammar Patterns and Idioms for Sentiment Analysis
+# Format: pattern|sentiment_score|confidence|explanation
+
+# === NEGATION PATTERNS ===
+không hẳn là|0.3|0.8|partial negation - weakens positive
+chưa thể nào|0.5|0.9|impossibility negation
+có gì đâu mà|0.2|0.7|dismissive negation
+đâu có|0.1|0.8|denial pattern
+làm gì có|0.1|0.8|denial pattern
+
+# === COMPARISON PATTERNS ===
+{adj} hơn kỳ vọng|1.5|0.9|exceeds expectation
+{adj} hơn tưởng|1.2|0.8|better than thought
+không {adj} như tưởng|−1.2|0.8|worse than expected
+so với {noun} thì|0|0.5|comparison context
+tốt hơn {noun}|1|0.7|comparative positive
+tệ hơn {noun}|−1|0.7|comparative negative
+
+# === CONDITIONAL PATTERNS ===
+nếu {condition} thì {sentiment}|0.3|0.6|hypothetical
+giá mà {condition}|0.2|0.5|wishful thinking
+ước gì {condition}|0.2|0.5|wishful thinking
+chỉ cần {condition}|0.4|0.6|simple requirement
+
+# === VIETNAMESE IDIOMS ===
+như cá gặp nước|2.5|0.95|perfect fit
+như hổ mọc thêm cánh|2.5|0.95|extremely powerful
+một trời một vực|−2.5|0.95|vastly different (negative context)
+như nước đổ lá khoai|−2|0.9|futile effort
+chẳng ra làm sao|−1.5|0.8|mediocre/poor
+tốt như vàng|2.5|0.95|excellent quality
+dở như bã|−2.5|0.95|terrible quality
+như chuối ba gang|−2.5|0.95|very bad
+
+# === EMPHASIS PATTERNS ===
+{adj} lắm|1.3|0.8|emphasis multiplier
+{adj} quá|1.5|0.8|strong emphasis
+{adj} ghê|1.4|0.8|strong emphasis (informal)
+{adj} vãi|1.6|0.8|very strong emphasis (slang)
+
+# === DEGREE MODIFIERS ===
+hơi {adj}|0.5|0.7|slightly
+khá {adj}|1.2|0.8|quite
+tương đối {adj}|1|0.7|relatively
+cực kỳ {adj}|2|0.9|extremely
+vô cùng {adj}|2.2|0.9|infinitely
+
+# === TEMPORAL PATTERNS ===
+ban đầu {sentiment1} nhưng {sentiment2}|temporal|0.8|temporal shift
+trước đây {sentiment1} giờ {sentiment2}|temporal|0.8|temporal comparison
+lúc đầu {sentiment}|0.7|0.6|initial impression (lower weight)
+sau này {sentiment}|1.3|0.8|later impression (higher weight)
+
+# === UNCERTAINTY PATTERNS ===
+có thể {sentiment}|0.5|0.5|uncertain opinion
+chắc là {sentiment}|0.8|0.7|probably
+hình như {sentiment}|0.6|0.6|seems like
+dường như {sentiment}|0.6|0.6|appears to be
+
+# === VIETNAMESE SLANG PATTERNS ===
+bá cháy|2.5|0.9|extremely good (Southern Vietnam)
+xịn sò|2|0.8|fancy/high quality
+xịn xò|2|0.8|high quality
+đỉnh của chóp|2.5|0.9|peak quality
+chill phết|1.5|0.8|very relaxed/good
+ngon bổ rẻ|2|0.9|good value for money
+ổn áp|1.5|0.8|stable/reliable
+
+# === QUESTION PATTERNS ===
+{sentiment} không?|0.8|0.6|seeking confirmation
+có {sentiment} không?|0.7|0.6|questioning sentiment
+tại sao {sentiment}?|0.9|0.7|questioning reason
+
+# === EXCLAMATION PATTERNS ===
+{sentiment} quá đi!|1.5|0.8|strong exclamation
+{sentiment} mà!|1.2|0.7|emphasis exclamation
+ôi {sentiment} quá!|1.4|0.8|emotional exclamation

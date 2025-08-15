@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "extraction_date": "2025-08-15",
+    "source_samples": 10000,
+    "extraction_method": "expert_pattern_analysis",
+    "pattern_confidence_threshold": 0.75,
+    "version": "1.0"
+  },
+  "sentiment_patterns": {
+    "positive_patterns": [
+      {
+        "pattern": "thật sự + [positive_adjective]",
+        "examples": ["thật sự tuyệt vời", "thật sự tốt", "thật sự hài lòng"],
+        "weight": 0.85,
+        "confidence": 0.92,
+        "frequency": 245,
+        "context_dependency": "low"
+      },
+      {
+        "pattern": "rất + [satisfaction_word]",
+        "examples": ["rất hài lòng", "rất thích", "rất tuyệt"],
+        "weight": 0.8,
+        "confidence": 0.89,
+        "frequency": 312,
+        "context_dependency": "low"
+      },
+      {
+        "pattern": "[positive_word] + quá + [intensifier]",
+        "examples": ["tuyệt quá đi", "hay quá trời", "đẹp quá chừng"],
+        "weight": 0.9,
+        "confidence": 0.95,
+        "frequency": 178,
+        "context_dependency": "medium"
+      }
+    ],
+    "negative_patterns": [
+      {
+        "pattern": "[negative_adjective] + quá",
+        "examples": ["tệ quá", "dở quá", "kém quá"],
+        "weight": -0.8,
+        "confidence": 0.91,
+        "frequency": 289,
+        "context_dependency": "low"
+      },
+      {
+        "pattern": "không + [positive_word] + chút nào",
+        "examples": ["không tốt chút nào", "không hay chút nào"],
+        "weight": -0.75,
+        "confidence": 0.87,
+        "frequency": 156,
+        "context_dependency": "medium"
+      },
+      {
+        "pattern": "thất vọng + [intensity_modifier]",
+        "examples": ["thất vọng quá", "rất thất vọng", "thất vọng cực kỳ"],
+        "weight": -0.85,
+        "confidence": 0.93,
+        "frequency": 201,
+        "context_dependency": "low"
+      }
+    ],
+    "sarcasm_patterns": [
+      {
+        "pattern": "[positive_exclamation] + [negative_context]",
+        "examples": ["Tuyệt vời! Chờ 2 tiếng", "Perfect! Hỏng rồi", "Hay quá! Lỗi liên tục"],
+        "sarcasm_probability": 0.88,
+        "confidence": 0.82,
+        "frequency": 94,
+        "context_indicators": ["time_complaints", "error_mentions", "delay_indicators"]
+      },
+      {
+        "pattern": "[praise_word] + quá đi + [complaint]",
+        "examples": ["Hay quá đi, không ai trả lời", "Tốt quá đi, hỏng hoài"],
+        "sarcasm_probability": 0.91,
+        "confidence": 0.86,
+        "frequency": 67,
+        "context_indicators": ["service_failures", "technical_issues"]
+      }
+    ],
+    "neutral_patterns": [
+      {
+        "pattern": "khá + [mild_positive]",
+        "examples": ["khá ổn", "khá tốt", "khá hay"],
+        "weight": 0.3,
+        "confidence": 0.78,
+        "frequency": 198,
+        "context_dependency": "high"
+      },
+      {
+        "pattern": "không + [negative] + lắm",
+        "examples": ["không tệ lắm", "không dở lắm"],
+        "weight": 0.2,
+        "confidence": 0.72,
+        "frequency": 134,
+        "context_dependency": "medium"
+      }
+    ]
+  },
+  "emotional_patterns": {
+    "joy_indicators": ["vui", "hạnh phúc", "phấn khích", "hào hứng"],
+    "satisfaction_indicators": ["hài lòng", "thỏa mãn", "ưng ý", "vừa lòng"],
+    "disappointment_indicators": ["thất vọng", "buồn", "chán nản", "tức giận"],
+    "frustration_indicators": ["bực mình", "khó chịu", "phát cáu", "gáy"]
+  },
+  "contextual_patterns": {
+    "temporal_negative": {
+      "patterns": ["chờ + [time_duration]", "mất + [time] + mới", "từ + [time] + đến + [time]"],
+      "examples": ["chờ 2 tiếng", "mất 3 ngày mới", "từ sáng đến chiều"],
+      "sentiment_impact": -0.6,
+      "confidence": 0.84
+    },
+    "comparison_positive": {
+      "patterns": ["tốt hơn + [comparison]", "hay hơn + [expectation]"],
+      "examples": ["tốt hơn mong đợi", "hay hơn nghĩ"],
+      "sentiment_impact": 0.7,
+      "confidence": 0.81
+    },
+    "problem_resolution": {
+      "patterns": ["đã + [fix_verb]", "giải quyết + [problem]", "khắc phục + được"],
+      "examples": ["đã sửa xong", "giải quyết nhanh", "khắc phục được lỗi"],
+      "sentiment_impact": 0.5,
+      "confidence": 0.79
+    }
+  },
+  "linguistic_features": {
+    "intensifiers": {
+      "high": ["cực kỳ", "vô cùng", "siêu", "quá chừng"],
+      "medium": ["rất", "khá", "tương đối", "khá là"],
+      "low": ["hơi", "một chút", "phần nào"]
+    },
+    "negation_patterns": ["không", "chẳng", "chả", "chưa", "không hề"],
+    "question_indicators": ["?", "có phải", "có đúng", "có thật"],
+    "uncertainty_markers": ["có lẽ", "chắc", "hình như", "dường như"]
+  },
+  "domain_specific_patterns": {
+    "customer_service": {
+      "complaint_patterns": ["nhân viên + [negative]", "dịch vụ + [poor_quality]"],
+      "praise_patterns": ["nhân viên + [positive]", "hỗ trợ + [positive]"]
+    },
+    "product_review": {
+      "quality_patterns": ["chất lượng + [assessment]", "sản phẩm + [evaluation]"],
+      "value_patterns": ["giá + [value_judgment]", "đáng + [worth_assessment]"]
+    }
+  }
+}
+

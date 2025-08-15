@@ -1,0 +1,103 @@
+# Emoji and Emoticon Sentiment Mapping
+# Format: emoji/emoticon|sentiment_score|confidence|category
+
+# === POSITIVE EMOJIS ===
+😊|2|0.9|happy
+😃|2.2|0.9|very_happy
+😄|2.3|0.9|laughing
+😁|2.1|0.9|grinning
+😆|2.2|0.9|laughing_happy
+😂|2.5|0.9|laughing_tears
+🤣|2.5|0.9|rolling_laughing
+😍|2.8|0.95|love_eyes
+🥰|2.7|0.95|smiling_hearts
+😘|2.5|0.9|kiss
+😋|2|0.8|yummy
+😎|2.2|0.8|cool
+🤩|2.6|0.9|star_struck
+😇|2.3|0.8|angelic
+🙂|1.5|0.7|slightly_happy
+🙃|1.2|0.6|upside_down
+😌|1.8|0.7|relieved
+😉|1.8|0.8|winking
+👍|2|0.9|thumbs_up
+👌|2|0.8|ok_hand
+✌️|1.5|0.7|peace
+🎉|2.5|0.9|celebration
+🔥|2.3|0.8|fire_good
+💯|2.5|0.9|hundred_perfect
+❤️|2.8|0.95|red_heart
+💕|2.6|0.9|two_hearts
+💖|2.7|0.9|sparkling_heart
+🏆|2.5|0.9|trophy
+
+# === NEGATIVE EMOJIS ===
+😢|-2.2|0.9|crying
+😭|-2.5|0.95|loudly_crying
+😤|-2|0.8|huffing
+😠|-2.3|0.9|angry
+😡|-2.5|0.95|very_angry
+🤬|-2.8|0.95|swearing
+😞|-2|0.8|disappointed
+😔|-2.1|0.8|pensive
+😟|-1.8|0.8|worried
+😕|-1.5|0.7|slightly_frowning
+☹️|-1.8|0.8|frowning
+😒|-1.6|0.7|unamused
+🙄|-1.4|0.7|eye_roll
+😩|-2.2|0.9|weary
+😫|-2.3|0.9|tired
+😪|-1.5|0.7|sleepy
+🤢|-2.5|0.9|nauseated
+🤮|-2.8|0.95|vomiting
+😷|-1.5|0.7|sick
+🤒|-1.8|0.8|fever
+👎|-2|0.9|thumbs_down
+💩|-2.5|0.9|poop
+💔|-2.5|0.95|broken_heart
+
+# === NEUTRAL/AMBIGUOUS EMOJIS ===
+😐|0|0.6|neutral
+😑|0|0.6|expressionless
+🤔|0|0.5|thinking
+😶|0|0.5|no_mouth
+🙈|0.5|0.5|see_no_evil
+🙉|0|0.5|hear_no_evil
+🙊|0|0.5|speak_no_evil
+
+# === TRADITIONAL EMOTICONS ===
+:)|1.8|0.8|smile
+:D|2.2|0.9|big_smile
+:P|1.5|0.7|tongue_out
+;)|1.8|0.8|wink
+<3|2.5|0.9|heart
+</3|-2.5|0.9|broken_heart
+:(|-1.8|0.8|sad
+:'(|-2.2|0.9|crying
+:((|-2.5|0.9|very_sad
+>:(|-2.3|0.9|angry
+-_-|-0.5|0.6|annoyed
+=))|1.8|0.8|happy
+XD|2.3|0.9|laughing
+^^|1.6|0.7|happy_eyes
+T_T|-2.2|0.9|crying
+TT|-2|0.8|crying
+OTL|-2|0.8|disappointed
+orz|-1.8|0.8|frustrated
+
+# === INTENSITY MODIFIERS FOR EMOJIS ===
+# Multiple same emojis increase intensity
+😊😊|2.3|0.9|multiple_happy
+😊😊😊|2.5|0.95|many_happy
+😢😢|-2.5|0.9|multiple_sad
+😢😢😢|-2.8|0.95|many_sad
+🔥🔥🔥|2.8|0.95|triple_fire
+
+# === SPECIAL COMBINATIONS ===
+😅|1.2|0.7|nervous_laugh
+😬|0.2|0.6|grimacing
+🤐|0|0.5|zipper_mouth
+🤫|0.3|0.5|shushing
+🤭|1|0.6|hand_over_mouth
+🥺|0.8|0.7|pleading
+🥲|0.5|0.6|smiling_tear

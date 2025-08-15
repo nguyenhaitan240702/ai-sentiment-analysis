@@ -1,0 +1,692 @@
+# --- BEGIN VIETNAMESE NEGATIVE SENTIMENT LEXICON ---
+# --- For AI Sentiment Analysis Model Training ---
+# --- Last Updated: 2025-08-14 ---
+
+# === SECTION 1: CORE NEGATIVE WORDS (ADJECTIVES, VERBS, NOUNS) ===
+# Gồm các từ đơn và cụm từ gốc mang nghĩa tiêu cực.
+tệ
+xấu
+dở
+kém
+chán
+buồn
+giận
+ghét
+căm
+hận
+thù
+thất vọng
+đau khổ
+mệt mỏi
+áp lực
+stress
+căng thẳng
+sai
+sai lầm
+lỗi
+hỏng
+vỡ
+bể
+hư
+phiền
+phiền phức
+rắc rối
+phức tạp
+khó
+khó khăn
+chậm
+lâu
+trễ
+đắt
+tốn kém
+lãng phí
+thất bại
+thua
+sụp đổ
+phá sản
+nguy hiểm
+rủi ro
+độc hại
+ô nhiễm
+giả
+nhái
+giả mạo
+lừa đảo
+lừa dối
+dối trá
+phản bội
+bất công
+vô lý
+vô dụng
+vô tâm
+vô trách nhiệm
+vô duyên
+vô lễ
+ích kỷ
+keo kiệt
+bủn xỉn
+hẹp hòi
+nhỏ nhen
+tồi tệ
+kinh khủng
+khủng khiếp
+ghê tởm
+kinh tởm
+gớm ghiếc
+bẩn
+dơ
+bẩn thỉu
+cẩu thả
+bất cẩn
+lười biếng
+lười nhác
+yếu
+yếu kém
+thấp
+thấp kém
+tụt hậu
+lạc hậu
+nhạt
+nhạt nhẽo
+tẻ nhạt
+buồn tẻ
+cô đơn
+cô độc
+lạnh nhạt
+thờ ơ
+hờ hững
+tiêu cực
+bi quan
+nản
+nản chí
+bực
+bực bội
+bực mình
+khó chịu
+tức
+tức giận
+tức tối
+phẫn nộ
+cáu
+gắt
+cáu kỉnh
+gắt gỏng
+tham lam
+độc ác
+tàn nhẫn
+hèn
+hèn nhát
+ngu
+ngu ngốc
+dốt
+ngu dốt
+dại
+khờ
+ngớ ngẩn
+điên
+khùng
+điên rồ
+ảo tưởng
+viển vông
+cũ
+cũ kỹ
+hết hạn
+hết thời
+lỗi thời
+ồn ào
+phiền nhiễu
+coi thường
+khinh bỉ
+chê
+chê bai
+chỉ trích
+phê phán
+phàn nàn
+than phiền
+oán trách
+trách móc
+
+# === SECTION 2: INTERNET SLANG, TEENCODE, MODERN EXPRESSIONS ===
+# Gồm các từ lóng, từ mới nổi trên mạng xã hội.
+toang
+phèn
+cấn
+cấn cấn
+xui
+xui xẻo
+nhạt
+chán đời
+báo
+báo nhà
+báo thủ
+nghiệp
+nghiệp quật
+hề
+hề hước (theo nghĩa mỉa mai)
+ba chấm
+tụt mood
+xu
+xu cà na
+còn cái nịt
+í ẹ
+ối dồi ôi
+mệt mỏi ghê
+hãm
+toxic (độc hại)
+cringe (khó coi, xấu hổ)
+simp (theo đuổi mù quáng)
+trẻ trâu
+sửu nhi
+trap (bẫy)
+drama (phốt, chuyện thị phi)
+phốt
+bóc phốt
+hít drama
+chán không buồn nói
+cạn lời
+hết nói nổi
+bó tay
+bó tay chấm com
+sai trái
+tầm thường
+rẻ tiền
+ba xu
+dở hơi
+dở người
+dở ẹc
+dở tệ
+lởm
+đểu
+đểu giả
+khốn nạn
+mất dạy
+bố láo
+láo toét
+cùn
+ngáo
+ngáo ngơ
+ngáo đá
+tào lao
+nhảm
+nhảm nhí
+vớ vẩn
+lôm côm
+lem nhem
+bê bối
+tai tiếng
+thị phi
+cà khịa
+khịa
+ném đá
+gạch đá
+anti
+antifan
+ghét cay ghét đắng
+nhìn ngứa mắt
+nhìn chướng mắt
+khó ưa
+khó ở
+
+# === SECTION 3: COMBINATORIAL EXPANSION (INTENSIFIERS + ADJECTIVES) ===
+# Kết hợp các phó từ chỉ mức độ với tính từ tiêu cực.
+rất tệ
+rất xấu
+rất dở
+rất kém
+rất chán
+rất buồn
+rất thất vọng
+rất mệt mỏi
+rất áp lực
+rất khó
+rất khó khăn
+rất chậm
+rất lâu
+rất đắt
+rất tốn kém
+rất lãng phí
+rất phiền
+rất rắc rối
+rất phức tạp
+rất nguy hiểm
+rất độc hại
+rất bẩn
+rất dơ
+rất cẩu thả
+rất vô lý
+rất vô duyên
+rất ích kỷ
+rất keo kiệt
+rất giả tạo
+rất tồi tệ
+rất kinh khủng
+rất khủng khiếp
+rất bực bội
+rất khó chịu
+rất tức
+rất tức giận
+rất nhạt
+rất nhạt nhẽo
+rất tẻ nhạt
+rất ngu
+rất ngốc
+rất ngớ ngẩn
+rất nhảm
+rất nhảm nhí
+rất vớ vẩn
+cực kỳ tệ
+cực kỳ xấu
+cực kỳ dở
+cực kỳ kém
+cực kỳ chán
+cực kỳ buồn
+cực kỳ thất vọng
+cực kỳ mệt mỏi
+cực kỳ khó
+cực kỳ chậm
+cực kỳ đắt
+cực kỳ tốn kém
+cực kỳ lãng phí
+cực kỳ phiền
+cực kỳ rắc rối
+cực kỳ nguy hiểm
+cực kỳ độc hại
+cực kỳ bẩn
+cực kỳ cẩu thả
+cực kỳ vô lý
+cực kỳ vô duyên
+cực kỳ ích kỷ
+cực kỳ tồi tệ
+cực kỳ kinh khủng
+cực kỳ bực bội
+cực kỳ khó chịu
+cực kỳ tức giận
+cực kỳ nhạt
+cực kỳ ngu ngốc
+cực kỳ nhảm nhí
+vô cùng tệ
+vô cùng xấu
+vô cùng dở
+vô cùng kém
+vô cùng chán
+vô cùng buồn
+vô cùng thất vọng
+vô cùng mệt mỏi
+vô cùng khó
+vô cùng chậm
+vô cùng đắt
+vô cùng tốn kém
+vô cùng lãng phí
+vô cùng phiền
+vô cùng rắc rối
+vô cùng nguy hiểm
+vô cùng độc hại
+vô cùng bẩn
+vô cùng cẩu thả
+vô cùng vô lý
+vô cùng vô duyên
+vô cùng ích kỷ
+vô cùng tồi tệ
+vô cùng kinh khủng
+vô cùng bực bội
+vô cùng khó chịu
+vô cùng tức giận
+vô cùng nhạt
+vô cùng ngu ngốc
+vô cùng nhảm nhí
+quá tệ
+quá xấu
+quá dở
+quá kém
+quá chán
+quá buồn
+quá thất vọng
+quá mệt
+quá khó
+quá chậm
+quá lâu
+quá đắt
+quá tốn kém
+quá lãng phí
+quá phiền
+quá rắc rối
+quá nguy hiểm
+quá độc hại
+quá bẩn
+quá cẩu thả
+quá vô lý
+quá vô duyên
+quá ích kỷ
+quá tồi tệ
+quá kinh khủng
+quá bực
+quá khó chịu
+quá tức
+quá nhạt
+quá ngu
+quá ngốc
+quá nhảm
+quá vớ vẩn
+hơi tệ
+hơi xấu
+hơi dở
+hơi kém
+hơi chán
+hơi buồn
+hơi thất vọng
+hơi mệt
+hơi khó
+hơi chậm
+hơi lâu
+hơi đắt
+hơi tốn kém
+hơi phiền
+hơi rắc rối
+hơi bẩn
+hơi vô lý
+hơi vô duyên
+hơi khó chịu
+hơi nhạt
+thật sự tệ
+thật sự xấu
+thật sự dở
+thật sự kém
+thật sự chán
+thật sự buồn
+thật sự thất vọng
+thật sự mệt mỏi
+thật sự khó
+thật sự chậm
+thật sự đắt
+thật sự tốn kém
+thật sự lãng phí
+thật sự phiền
+thật sự rắc rối
+thật sự nguy hiểm
+thật sự độc hại
+thật sự bẩn
+thật sự cẩu thả
+thật sự vô lý
+thật sự vô duyên
+thật sự ích kỷ
+thật sự tồi tệ
+thật sự kinh khủng
+thật sự bực bội
+thật sự khó chịu
+thật sự tức giận
+thật sự nhạt
+thật sự ngu ngốc
+thật sự nhảm nhí
+chán chết
+buồn chết
+mệt chết
+khó chết
+chán ghê
+buồn ghê
+mệt ghê
+khó ghê
+dở ghê
+tệ ghê
+xấu ghê
+chậm ghê
+đắt ghê
+chán thiệt
+buồn thiệt
+mệt thiệt
+khó thiệt
+dở thiệt
+tệ thiệt
+xấu thiệt
+chậm thiệt
+đắt thiệt
+chán thật
+buồn thật
+mệt thật
+khó thật
+dở thật
+tệ thật
+xấu thật
+chậm thật
+đắt thật
+chán thế
+buồn thế
+mệt thế
+khó thế
+dở thế
+tệ thế
+xấu thế
+chậm thế
+đắt thế
+tệ hại
+tồi tệ
+thảm hại
+thảm họa
+không thể tệ hơn
+không thể chấp nhận
+không thể chịu đựng được
+không thể tin nổi (theo hướng tiêu cực)
+không ra gì
+chẳng ra gì
+chẳng ra làm sao
+chẳng ra đâu vào đâu
+
+# === SECTION 4: NEGATIVE PHRASES & CONTEXTUAL PATTERNS ===
+# Các cụm từ, mẫu câu hoàn chỉnh mang nghĩa tiêu cực.
+# --- Service/Product Evaluation ---
+dịch vụ tệ
+sản phẩm tệ
+trải nghiệm tệ
+chất lượng tệ
+dịch vụ kém
+sản phẩm kém
+chất lượng kém
+dịch vụ quá tệ
+sản phẩm quá dở
+chất lượng quá kém
+thái độ phục vụ kém
+phục vụ chậm
+chờ lâu
+chờ mòn mỏi
+giá đắt
+giá quá cao
+giá trên trời
+không đáng tiền
+phí tiền
+tiếc tiền
+không như quảng cáo
+không như mô tả
+quảng cáo láo
+treo đầu dê bán thịt chó
+hình ảnh chỉ mang tính chất minh họa
+thất vọng về sản phẩm
+thất vọng về dịch vụ
+sẽ không quay lại
+một đi không trở lại
+không bao giờ quay lại
+tránh xa
+cạch mặt
+không muốn giới thiệu
+đừng nên mua
+đừng nên thử
+phí thời gian
+mất thời gian
+hoàn toàn thất vọng
+quá thất vọng
+thất vọng tràn trề
+cho 1 sao
+vote 1 sao
+rate 1 sao
+không recommend
+cảnh báo
+tẩy chay
+shop lừa đảo
+nhân viên thái độ
+nhân viên khó chịu
+nhân viên không chuyên nghiệp
+giao hàng chậm
+giao hàng lâu
+đóng gói sơ sài
+đóng gói cẩu thả
+sản phẩm bị lỗi
+sản phẩm bị hỏng
+hàng fake
+hàng giả
+hàng nhái
+hàng kém chất lượng
+làm ăn chán
+làm ăn như屎
+làm ăn mất uy tín
+# --- Personal Feelings & Reactions ---
+cảm thấy buồn
+cảm thấy chán
+cảm thấy thất vọng
+cảm thấy mệt mỏi
+cảm thấy áp lực
+cảm thấy tồi tệ
+cảm thấy khó chịu
+cảm thấy bực bội
+cảm thấy cô đơn
+cảm thấy bị bỏ rơi
+làm tôi buồn
+làm tôi thất vọng
+làm tôi mệt mỏi
+làm tôi khó chịu
+làm tôi bực mình
+ghét bạn
+ghét cay ghét đắng
+ghét thậm tệ
+chán ngấy
+ngán tới tận cổ
+nhìn đã thấy ghét
+thấy mà ghét
+tức điên người
+bực cả mình
+khó chịu trong người
+buồn rười rượi
+chán như con gián
+# --- Criticizing People & Work ---
+bạn thật tệ
+bạn thật ích kỷ
+bạn thật vô tâm
+bạn thật giả tạo
+bạn làm tôi thất vọng
+làm tệ lắm
+làm dở quá
+làm sai rồi
+kết quả kém
+kết quả tồi tệ
+màn trình diễn thảm họa
+bài viết dở
+bài viết nhảm
+ý tưởng tồi
+suy nghĩ nông cạn
+lập luận yếu
+thiếu chuyên nghiệp
+thiếu trách nhiệm
+làm việc cẩu thả
+đừng có ảo tưởng
+thôi đi
+dẹp đi
+biến đi
+cút
+# --- General Negations & Denials ---
+không đồng ý
+phản đối
+không đúng
+không chính xác
+sai rồi
+sai bét
+hoàn toàn sai
+vớ vẩn
+nhảm nhí
+tào lao
+làm gì có chuyện đó
+đâu có
+đâu phải
+không phải vậy
+không được
+không ổn
+có vấn đề
+gặp sự cố
+gặp trục trặc
+
+# --- DOMAIN-SPECIFIC NEGATIVES ---
+# Food
+dở
+không ngon
+khó ăn
+nuốt không trôi
+mặn
+nhạt
+chua
+cay
+đắng
+nguội
+nguội ngắt
+ôi
+thiu
+hỏng
+mốc
+sống
+cháy
+khét
+khô
+cứng
+dai
+bở
+nát
+nhiều dầu mỡ
+ngấy
+# Technology
+chậm
+lag
+giật
+giật lag
+đơ
+treo máy
+sập nguồn
+tự khởi động lại
+hao pin
+tốn pin
+pin yếu
+nóng máy
+kết nối kém
+mất kết nối
+lỗi phần mềm
+lỗi phần cứng
+khó sử dụng
+khó dùng
+giao diện xấu
+giao diện khó dùng
+không tương thích
+# Art/Music/Film
+nhạc rác
+phim rác
+dở tệ
+nhạt nhẽo
+buồn ngủ
+cốt truyện cũ rích
+cốt truyện vô lý
+diễn xuất đơ
+diễn xuất gượng gạo
+lời bài hát sáo rỗng
+giai điệu ngang phè
+kỹ xảo ba xu
+không có gì đặc sắc
+không có cảm xúc
+# Appearance/Fashion
+xấu
+quê
+quê mùa
+sến
+sến sẩm
+lỗi mốt
+lỗi thời
+lôi thôi
+luộm thuộm
+mất thẩm mỹ
+không có gu
+phối đồ thảm họa
+màu mè
+hoa hòe hoa sói
+# --- END OF LEXICON ---

@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "total_samples": 10000,
+    "experts_count": 5,
+    "annotation_date": "2025-08-15",
+    "language": "vi",
+    "version": "1.0",
+    "inter_annotator_agreement": 0.92
+  },
+  "samples": [
+    {
+      "id": "sample_0001",
+      "text": "Sản phẩm này thật sự tuyệt vời, tôi rất hài lòng",
+      "expert_labels": {
+        "sentiment": "positive",
+        "confidence": 0.95,
+        "score": 0.8,
+        "scores": {
+          "positive": 0.85,
+          "negative": 0.05,
+          "neutral": 0.10
+        }
+      },
+      "linguistic_features": {
+        "emotions": ["joy", "satisfaction"],
+        "intensity": "high",
+        "subjectivity": 0.9,
+        "formality": "casual",
+        "sarcasm": false,
+        "irony": false
+      },
+      "context": {
+        "domain": "product_review",
+        "topic": "general_satisfaction",
+        "speaker_type": "customer",
+        "situation": "post_purchase"
+      },
+      "expert_annotations": {
+        "primary_annotator": "expert_1",
+        "secondary_annotator": "expert_2",
+        "agreement_level": "high",
+        "annotation_notes": "Clear positive sentiment with satisfaction indicators"
+      },
+      "linguistic_patterns": {
+        "key_phrases": ["thật sự tuyệt vời", "rất hài lòng"],
+        "sentiment_indicators": ["tuyệt vời", "hài lòng"],
+        "modifiers": ["thật sự", "rất"],
+        "grammatical_structure": "adjective_intensification"
+      }
+    },
+    {
+      "id": "sample_0002",
+      "text": "Dịch vụ khách hàng tệ quá, tôi rất thất vọng",
+      "expert_labels": {
+        "sentiment": "negative",
+        "confidence": 0.93,
+        "score": -0.7,
+        "scores": {
+          "positive": 0.05,
+          "negative": 0.85,
+          "neutral": 0.10
+        }
+      },
+      "linguistic_features": {
+        "emotions": ["disappointment", "frustration"],
+        "intensity": "high",
+        "subjectivity": 0.85,
+        "formality": "casual",
+        "sarcasm": false,
+        "irony": false
+      },
+      "context": {
+        "domain": "customer_service",
+        "topic": "service_complaint",
+        "speaker_type": "customer",
+        "situation": "complaint"
+      },
+      "expert_annotations": {
+        "primary_annotator": "expert_2",
+        "secondary_annotator": "expert_3",
+        "agreement_level": "high",
+        "annotation_notes": "Strong negative sentiment with disappointment"
+      },
+      "linguistic_patterns": {
+        "key_phrases": ["tệ quá", "rất thất vọng"],
+        "sentiment_indicators": ["tệ", "thất vọng"],
+        "modifiers": ["quá", "rất"],
+        "grammatical_structure": "negative_intensification"
+      }
+    },
+    {
+      "id": "sample_0003",
+      "text": "Hay quá đi, chờ 2 tiếng mà không có ai trả lời",
+      "expert_labels": {
+        "sentiment": "negative",
+        "confidence": 0.88,
+        "score": -0.6,
+        "scores": {
+          "positive": 0.10,
+          "negative": 0.75,
+          "neutral": 0.15
+        }
+      },
+      "linguistic_features": {
+        "emotions": ["sarcasm", "frustration"],
+        "intensity": "medium",
+        "subjectivity": 0.8,
+        "formality": "casual",
+        "sarcasm": true,
+        "irony": true
+      },
+      "context": {
+        "domain": "customer_service",
+        "topic": "waiting_time_complaint",
+        "speaker_type": "customer",
+        "situation": "service_delay"
+      },
+      "expert_annotations": {
+        "primary_annotator": "expert_3",
+        "secondary_annotator": "expert_1",
+        "agreement_level": "medium",
+        "annotation_notes": "Sarcastic positive phrase with negative context"
+      },
+      "linguistic_patterns": {
+        "key_phrases": ["Hay quá đi", "chờ 2 tiếng"],
+        "sentiment_indicators": ["hay"],
+        "modifiers": ["quá đi"],
+        "grammatical_structure": "sarcastic_praise",
+        "context_clues": ["chờ", "không có ai trả lời"]
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "total_samples": 2000,
+    "source": "expert_validation_set",
+    "purpose": "model_validation_and_testing",
+    "creation_date": "2025-08-15",
+    "validation_criteria": "high_confidence_expert_consensus"
+  },
+  "validation_samples": [
+    {
+      "id": "val_0001",
+      "text": "Tôi nghĩ sản phẩm này khá ổn, không quá tệ",
+      "ground_truth": {
+        "sentiment": "neutral",
+        "confidence": 0.91,
+        "score": 0.1,
+        "scores": {
+          "positive": 0.3,
+          "negative": 0.2,
+          "neutral": 0.5
+        }
+      },
+      "expert_consensus": {
+        "annotators": ["expert_1", "expert_2", "expert_4"],
+        "agreement_score": 0.95,
+        "difficulty_level": "medium",
+        "ambiguity_factors": ["mixed_signals", "understatement"]
+      },
+      "test_categories": [
+        "neutral_sentiment",
+        "mixed_indicators",
+        "understatement_detection"
+      ],
+      "linguistic_challenges": {
+        "type": "ambiguous_modifiers",
+        "details": "Uses both positive ('ổn') and negative ('không quá tệ') framing"
+      }
+    },
+    {
+      "id": "val_0002",
+      "text": "Perfect! Chờ đến 3h sáng mới được giao hàng",
+      "ground_truth": {
+        "sentiment": "negative",
+        "confidence": 0.89,
+        "score": -0.7,
+        "scores": {
+          "positive": 0.15,
+          "negative": 0.75,
+          "neutral": 0.10
+        }
+      },
+      "expert_consensus": {
+        "annotators": ["expert_2", "expert_3", "expert_5"],
+        "agreement_score": 0.92,
+        "difficulty_level": "hard",
+        "ambiguity_factors": ["sarcasm", "positive_word_negative_context"]
+      },
+      "test_categories": [
+        "sarcasm_detection",
+        "context_dependency",
+        "temporal_complaints"
+      ],
+      "linguistic_challenges": {
+        "type": "sarcastic_positive",
+        "details": "Positive exclamation contradicted by negative experience"
+      }
+    }
+  ],
+  "validation_metrics": {
+    "accuracy_threshold": 0.85,
+    "precision_threshold": 0.80,
+    "recall_threshold": 0.80,
+    "f1_threshold": 0.82,
+    "confidence_calibration": true
+  },
+  "test_scenarios": {
+    "easy": 800,
+    "medium": 800,
+    "hard": 400
+  },
+  "category_distribution": {
+    "positive": 600,
+    "negative": 700,
+    "neutral": 700,
+    "sarcasm": 200,
+    "mixed_sentiment": 300
+  }
+}
+
